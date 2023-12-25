@@ -1,0 +1,88 @@
+.imgstyl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:scale-down;
+}
+
+.yan_menu {
+    width: 180px;
+    height: 360px;
+    position: absolute;
+    top: 195px;
+    left: 150px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.vid_icerik {
+    width: 680px;
+    height: 360px;
+    position: absolute;
+    top: 195px;
+    left: 510px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.baslik {
+    width: 660px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 330px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.iletisim {
+    width: 1060px;
+    height: 60px;
+    position: absolute;
+    top: 590px;
+    left: 150px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding-top: 3px;
+}
+
+.banner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sayfa_linkleri {
+    position: absolute; 
+    top: 60px; 
+    left: 0px;
+    width: 1349px;
+    background-color: black;
+}
+
+.yan_sayfa_linkleri {
+    position: absolute;
+    top: 102px;
+    left: 0px;
+    li {
+        float: none;
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div_Example</title>
+    <link rel="stylesheet" href="div.css">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 12px 14px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #770000;
+        }
+
+        ul li ul {
+            background-color:#2c3e50;
+            display: none;
+            position: absolute; 
+            width: 70px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        ul li:hover ul{
+            display:block;
+            z-index: 2;
+        }
+        li ul li {
+            display:block; 
+            width: 100px;
+        }
+
+        #little_img_styl {
+            margin-top: 10px;
+            margin-right: 80px;
+            margin-left: 70px;
+        }
+    </style>
+</head>
+
+<body background="purple_landscape_1366x661.jpg" style="color: white">
+
+    
+    <div class="banner">
+        <img src="banner_2.png" alt="">
+    </div>
+
+    <div class="sayfa_linkleri">
+        <ul>
+            <li><a href="#index">Anasayfa</a></li>
+            <li><a href="#hakkimizda">Hakkımızda</a></li>
+            <li><a href="#urunler">Ürünler</a>
+                <ul>
+                    <li><a href="#hoodie">Hoodie</a></li>
+                    <li><a href="#cup">Kupa</a></li>
+                    <li><a href="#tshirt">Tshirt</a></li>
+                </ul>
+            </li>
+            <li><a href="#referanslar">Referanslar</a></li>
+            <li><a href="#iletisim">Iletisim</a></li>
+        </ul>
+    </div>
+
+    <div class="yan_sayfa_linkleri">
+        <ul>
+            <li><a href="#index">Yan_1</a></li>
+            <li><a href="#hakkimizda">Yan_2</a></li>
+            <li><a href="#urunler">Yan_3</a>
+        </ul>
+
+    </div>
+
+    
+
+    <div class="baslik">
+        <h3 style="margin-top: 5px;">Vivy: The Flourite Eyes Song</h3>
+    </div>
+
+    <div class="vid_icerik">
+        <iframe width="680" height="360" 
+            name="ehe"
+            src="https://www.youtube.com/embed/Y653dJQ_ecs?si=B5ovITkK3M8tFG0J" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="yan_menu">
+        <a href="https://www.youtube.com/embed/Y653dJQ_ecs?si=B5ovITkK3M8tFG0J" target="ehe">
+            <img src="vivy_trailer_1.jpg" alt="" style="margin-left: 5px; margin-bottom: 10px;">
+            </a>
+        <a href="https://www.youtube.com/embed/t3IHpQZHPFY?si=C5h-EMslEQZ61QNb" target="ehe">
+            <img src="vivy.jpg" alt="" style="margin-left: 5px;">
+        </a>
+    </div>
+    
+    <div class="iletisim" >
+        <a href="https://www.whatsapp.com">
+            <img src="whatsapp.png" alt="" id="little_img_styl">
+        </a>
+        
+        <a href="https://www.instagram.com/aniplexusa/">
+            <img src="instagram.png" alt="" id="little_img_styl">
+        </a>
+
+        <a href="mailto:contact@aniplexusa.com">
+            <img src="gmail.png" alt="" id="little_img_styl">
+        </a>
+
+        <a href="tel:+902744434343">
+            <img src="phone-call.png" alt="" id="little_img_styl">
+        </a>
+    </div>
+    
+</body>
+</html>
